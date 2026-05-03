@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oferta Exclusiva!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #1a1a1a;
+            -webkit-font-smoothing: antialiased;
+            display: flex;
+            justify-content: center;
+        }
+
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px rgba(234, 179, 8, 0.2); }
+            50% { text-shadow: 0 0 20px rgba(234, 179, 8, 0.8); }
+            100% { text-shadow: 0 0 5px rgba(234, 179, 8, 0.2); }
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .badge-top {
+            background-color: #dc2626;
+            color: #ffffff;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+        }
+
+        .section-header {
+            padding: 30px 20px 20px;
+            text-align: center;
+            background-color: #ffffff;
+        }
+
+        .headline {
+            font-size: 26px;
+            font-weight: 800;
+            line-height: 1.3;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+        }
+
+        .subheadline {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 1.4;
+            color: #dc2626;
+            margin-bottom: 30px;
+        }
+
+        .mockup-img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+            border: 1px solid #eee;
+        }
+
+        .section-body {
+            background-color: #fff5f5;
+            padding: 35px 25px;
+            width: 100%;
+            text-align: left;
+        }
+
+        .body-text {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #1a1a1a;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .benefits-list {
+            list-style: none;
+            margin-top: 25px;
+        }
+
+        .benefits-list li {
+            font-size: 15px;
+            line-height: 1.5;
+            color: #1a1a1a;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .benefits-list li:last-child {
+            margin-bottom: 0;
+        }
+
+        .benefits-list .icon {
+            margin-right: 12px;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .section-price {
+            background-color: #ffffff;
+            padding: 40px 20px 30px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .price-old {
+            font-size: 18px;
+            text-decoration: line-through;
+            color: #9ca3af;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .price-new {
+            font-size: 52px;
+            color: #dc2626;
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+            animation: glow 2s infinite;
+        }
+
+        .price-note {
+            font-size: 14px;
+            color: #1a1a1a;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        #wiapy_upsell {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        #wiapy_upsell a {
+            transition: transform 0.2s ease !important;
+            display: inline-block;
+        }
+
+        #wiapy_upsell a:hover {
+            transform: scale(1.05) !important;
+            animation: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="badge-top">
+            ⚡ OFERTA EXCLUSIVA, SÓ NESSA TELA
+        </div>
+
+        <div class="section-header">
+            <h1 class="headline">Espera! Enquanto seu pedido está sendo processado... o que você acha desse material que me fez ganhar muito dinheiro no bar?</h1>
+            
+            <h2 class="subheadline">+150 Táticas de Truco, Cacheta e Buraco que desenvolvi pra mim, e agora estou disponibilizando pra você nunca mais passar vergonha na mesa de cartas</h2>
+            
+            <img class="mockup-img" src="https://res.cloudinary.com/dtcjxw6ax/image/upload/q_auto/f_auto/v1777822971/Books_with_playing_cards_and_202605031242_tno05q.jpg" alt="Mockup do Guia de Cartas">
+        </div>
+        
+        <div class="section-body">
+            <p class="body-text">Você já sabe dominar a sinuca. Mas e quando a resenha chama pra uma mãozinha de Truco, você sabe como ganhar dinheiro em cima disso?</p>
+            <p class="body-text">No bar, quem não sabe jogar cartas fica de fora. Ou pior: entra, perde dinheiro e vira chacota da mesa. Eu já fui o pato da mesa. Até descobrir isso. Aprendi as táticas certas de cada jogo, e virei o cara que a galera chama pra completar a mesa.</p>
+            <p class="body-text" style="font-weight: 700; margin-bottom: 0;">Com o Cartas na Mesa você aprende:</p>
+            
+            <ul class="benefits-list">
+                <li>
+                    <span class="icon">🃏</span>
+                    <div>
+                        <span><strong>Truco</strong>, como ganhar mesmo com carta ruim, blefe e quando gritar</span>
+                        <div style="color:#dc2626; font-size:13px; font-weight:700; margin-top:3px;">Pare de perder dinheiro por falta de malícia</div>
+                    </div>
+                </li>
+                <li>
+                    <span class="icon">🃏</span>
+                    <div>
+                        <span><strong>Cacheta</strong>, como bater antes do adversário sem entregar o jogo</span>
+                        <div style="color:#dc2626; font-size:13px; font-weight:700; margin-top:3px;">Dite o ritmo do jogo e deixe seus amigos perdidos</div>
+                    </div>
+                </li>
+                <li>
+                    <span class="icon">🃏</span>
+                    <div>
+                        <span><strong>Buraco</strong>, estratégia, parceria e como fechar sem deixar escapar</span>
+                        <div style="color:#dc2626; font-size:13px; font-weight:700; margin-top:3px;">Faça os adversários pedirem arrego antes da última rodada</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section-price">
+            <div style="text-align:center; padding: 20px; background:#fff5f5; border-radius:12px; margin-bottom:20px;">
+                <p style="font-size:14px; color:#6b7280; margin-bottom:4px;">Desenvolvido por</p>
+                <p style="font-size:18px; font-weight:900; color:#dc2626;">Rafael Matos</p>
+                <p style="font-size:13px; color:#1a1a1a;">Especialista em jogos de bar; 12+ anos de experiência; mais de 800 pessoas já adquiriram esse material e começaram a ganhar dinheiro com isso</p>
+            </div>
+
+            <div class="price-old">R$ 57,90</div>
+            <div class="price-new">R$ 19,90</div>
+            <div class="price-note">Pagamento único, só nessa tela</div>
+
+            <script src="https://wiapy.com/sell/1.0.0/sell.min.js"></script>
+            <div id="wiapy_upsell"></div>
+            <script>
+            initWiapyUpsell({
+                linkUrl: "https://pay.wiapy.com/checkout/undefined",
+                linkText: "SIM, EU ACEITO ESSA OFERTA",
+                styles: {
+                    backgroundColor: "#dc2626",
+                    hoverBackgroundColor: "#b91c1c",
+                    fontSize: "17px",
+                    borderRadius: "10px"
+                },
+                refusalLinkUrl: "https://wiapy.com/login",
+                refusalLinkText: "Recusar esta oferta",
+                refusalLinkColor: "#6b7280"
+            });
+            </script>
+        </div>
+
+    </div>
+
+</body>
+</html>
